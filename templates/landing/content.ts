@@ -132,9 +132,7 @@ export const contact = {
   heading: "Get in touch",
   body:
     "Wholesale questions, subscriptions, training enquiries — drop us a line. We reply within one business day.",
-  email: "hello@hartmann-coffee.example",
-  phone: "+49 30 1234 5678",
-  hours: "Mon–Fri · 09:00 — 17:00 CET",
+  email: "hello@sina-otto.com",
   address: "Oranienstraße 42, 10999 Berlin",
 };
 
