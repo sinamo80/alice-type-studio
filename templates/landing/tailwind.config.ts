@@ -11,7 +11,8 @@ const config: Config = {
         accent: "#8b00ff",
       },
       fontFamily: {
-        sans: ["ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["var(--font-syne)", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["var(--font-playfair)", "Georgia", "serif"],
       },
     },
   },
