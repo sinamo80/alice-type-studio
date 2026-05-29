@@ -17,8 +17,7 @@ export const nav = {
     { label: "FAQ", href: "#faq" },
     { label: "Contact", href: "#contact" },
   ],
-  ctaLabel: "Order beans",
-  ctaHref: "#contact",
+  instagram: "https://www.instagram.com/sina.otto_studio",
 };
 
 export const hero = {

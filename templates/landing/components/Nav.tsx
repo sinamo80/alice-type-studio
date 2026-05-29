@@ -17,10 +17,12 @@ export function Nav() {
             ))}
           </nav>
           <a
-            href={nav.ctaHref}
-            className="px-4 py-2 rounded-full bg-ink text-paper text-sm font-medium hover:opacity-90 transition"
+            href={nav.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-ink/70 hover:text-ink transition"
           >
-            {nav.ctaLabel}
+            Instagram
           </a>
         </div>
       </div>
