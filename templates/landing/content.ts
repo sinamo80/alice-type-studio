@@ -5,9 +5,9 @@
 // ────────────────────────────────────────────────────────────────
 
 export const business = {
-  name: "Hartmann Coffee Roasters",
-  shortName: "Hartmann",
-  tagline: "Small-batch coffee, roasted in Kreuzberg.",
+  name: "Alice Type Studio",
+  shortName: "Alice Type Studio",
+  tagline: "Type Consulting and Custom Type.",
 };
 
 export const nav = {
@@ -22,33 +22,26 @@ export const nav = {
 };
 
 export const hero = {
-  eyebrow: "Berlin · since 2018",
-  heading: "Coffee that tastes like someone made a choice.",
-  subheading:
-    "We source single-origin beans from farms we've actually visited, roast them in small batches at our Kreuzberg studio, and deliver them to cafés and homes across Germany.",
-  ctaPrimary: { label: "Order beans", href: "#contact" },
+  eyebrow: "",
+  heading: "Alice Type Studio helps brands and agencies find their typographic voice.",
+  subheading: "",
+  ctaPrimary: { label: "Get in touch", href: "#contact" },
   ctaSecondary: { label: "See our services", href: "#services" },
 };
 
 export const services = {
   heading: "What we do",
-  intro:
-    "Three things, done seriously.",
+  intro: "",
   items: [
     {
-      title: "Wholesale roasting",
+      title: "Type Consulting",
       summary:
-        "Custom roast profiles for cafés and restaurants. We work with 23 venues across Berlin, Hamburg, and Munich. Weekly fresh delivery, transparent pricing.",
+        "Recommendations for companies and agencies on which typefaces suit their brand, including correct licensing.",
     },
     {
-      title: "Direct-to-home subscriptions",
+      title: "Custom Type",
       summary:
-        "Choose your beans, your frequency, and your grind. We ship within 48 hours of roasting. Pause or cancel anytime, no friction.",
-    },
-    {
-      title: "Barista training",
-      summary:
-        "Two-day intensive workshops for new café staff. Covers extraction, milk technique, and how to taste. Held in our Kreuzberg studio one Saturday a month.",
+        "Development of bespoke house typefaces in collaboration with independent type designers.",
     },
   ],
 };
@@ -146,7 +139,7 @@ export const contact = {
 };
 
 export const meta = {
-  title: "Hartmann Coffee Roasters — Small-batch coffee, Kreuzberg",
+  title: "Alice Type Studio — Type Consulting and Custom Type",
   description:
-    "Single-origin beans, custom roasts, and barista training in Berlin.",
+    "Alice Type Studio helps brands and agencies find their typographic voice.",
 };

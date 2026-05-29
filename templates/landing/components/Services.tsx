@@ -6,7 +6,7 @@ export function Services() {
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold">{services.heading}</h2>
         <p className="mt-3 text-lg text-ink/65">{services.intro}</p>
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
+        <div className="mt-12 grid md:grid-cols-2 gap-6">
           {services.items.map((s, i) => (
             <article
               key={i}
