@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Syne, Playfair_Display } from "next/font/google";
+import { Syne, Fraunces } from "next/font/google";
 import { meta } from "../content";
 
 const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
-const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400"], variable: "--font-playfair" });
+const fraunces = Fraunces({ subsets: ["latin"], weight: ["200"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
   title: meta.title,
